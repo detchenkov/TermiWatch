@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch40" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="16096" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch40"/>
     <dependencies>
-        <deployment identifier="watchOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="16012"/>
     </dependencies>
     <customFonts key="customFonts">
         <array key="SF-Mono-Regular.otf">
@@ -21,7 +18,7 @@
                     <items>
                         <group width="1" alignment="left" layout="vertical" spacing="2" id="6PL-bo-ZK7" userLabel="Terminal Group">
                             <items>
-                                <label alignment="left" text="user@watch:~ $ now" textAlignment="left" id="bcc-Ix-MUn">
+                                <label alignment="left" text="id@skynet:~ $ now" textAlignment="left" id="bcc-Ix-MUn">
                                     <fontDescription key="font" name="SFMono-Regular" family="SF Mono" pointSize="14"/>
                                     <variation key="device=watch38mm">
                                         <fontDescription key="font" name="SFMono-Regular" family="SF Mono" pointSize="12"/>
@@ -152,7 +149,7 @@
                                 </group>
                                 <group width="1" alignment="left" spacing="0.0" id="vaI-MQ-EJU" userLabel="Ring Group">
                                     <items>
-                                        <label alignment="left" text="[RING]" textAlignment="left" id="y6B-53-HkG">
+                                        <label alignment="left" text="[INFO]" textAlignment="left" id="y6B-53-HkG">
                                             <fontDescription key="font" name="SFMono-Regular" family="SF Mono" pointSize="14"/>
                                             <variation key="device=watch38mm">
                                                 <fontDescription key="font" name="SFMono-Regular" family="SF Mono" pointSize="12"/>
@@ -180,7 +177,7 @@
                                 </group>
                                 <group width="1" alignment="left" spacing="0.0" id="S8h-WK-zOs" userLabel="Step Group">
                                     <items>
-                                        <label alignment="left" text="[STEP]" textAlignment="left" id="jGw-XG-Xac">
+                                        <label alignment="left" text="[WALK]" textAlignment="left" id="jGw-XG-Xac">
                                             <fontDescription key="font" name="SFMono-Regular" family="SF Mono" pointSize="14"/>
                                             <variation key="device=watch38mm">
                                                 <fontDescription key="font" name="SFMono-Regular" family="SF Mono" pointSize="12"/>
@@ -209,7 +206,7 @@
                                 </group>
                                 <group width="1" alignment="left" spacing="0.0" id="7QQ-dm-023" userLabel="Heart Rate Group">
                                     <items>
-                                        <label alignment="left" text="[L_HR]" textAlignment="left" id="A1R-GR-dXZ">
+                                        <label alignment="left" text="[RAGE]" textAlignment="left" id="A1R-GR-dXZ">
                                             <fontDescription key="font" name="SFMono-Regular" family="SF Mono" pointSize="14"/>
                                             <variation key="device=watch38mm">
                                                 <fontDescription key="font" name="SFMono-Regular" family="SF Mono" pointSize="12"/>
@@ -236,7 +233,7 @@
                                         </label>
                                     </items>
                                 </group>
-                                <label alignment="left" text="user@watch:~ $ " textAlignment="left" id="V36-NY-x0W">
+                                <label alignment="left" text="id@skynet:~ $ " textAlignment="left" id="V36-NY-x0W">
                                     <fontDescription key="font" name="SFMono-Regular" family="SF Mono" pointSize="14"/>
                                     <variation key="device=watch38mm">
                                         <fontDescription key="font" name="SFMono-Regular" family="SF Mono" pointSize="12"/>
@@ -266,6 +263,7 @@
                     </connections>
                 </controller>
             </objects>
+            <point key="canvasLocation" x="131" y="134"/>
         </scene>
     </scenes>
 </document>

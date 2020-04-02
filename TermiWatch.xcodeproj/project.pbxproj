@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D1B79BC22ABA8EC00EB82EA /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5D1B79BB22ABA8EC00EB82EA /* PromiseKit */; };
-		5D1B79BE22ABAA0D00EB82EA /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5D1B79BD22ABAA0D00EB82EA /* PromiseKit */; };
 		5D1B79C122ABAA2300EB82EA /* PMKFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 5D1B79C022ABAA2300EB82EA /* PMKFoundation */; };
 		5D3E852D21A0246C00FA946B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3E852C21A0246C00FA946B /* AppDelegate.swift */; };
 		5D3E852F21A0246C00FA946B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3E852E21A0246C00FA946B /* ViewController.swift */; };
@@ -115,7 +113,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D1B79BC22ABA8EC00EB82EA /* PromiseKit in Frameworks */,
 				5DD885B4237743DC003B1A55 /* PMKCoreLocation in Frameworks */,
 				5DC87B2322ABBACD005243D5 /* PMKHealthKit in Frameworks */,
 			);
@@ -125,7 +122,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D1B79BE22ABAA0D00EB82EA /* PromiseKit in Frameworks */,
 				5DD885B6237743E9003B1A55 /* PMKCoreLocation in Frameworks */,
 				5DC87B2522ABBAD5005243D5 /* PMKHealthKit in Frameworks */,
 				5D1B79C122ABAA2300EB82EA /* PMKFoundation in Frameworks */,
@@ -223,7 +219,6 @@
 			);
 			name = TermiWatch;
 			packageProductDependencies = (
-				5D1B79BB22ABA8EC00EB82EA /* PromiseKit */,
 				5DC87B2222ABBACD005243D5 /* PMKHealthKit */,
 				5DD885B3237743DC003B1A55 /* PMKCoreLocation */,
 			);
@@ -263,7 +258,6 @@
 			);
 			name = "TermiWatch WatchKit Extension";
 			packageProductDependencies = (
-				5D1B79BD22ABAA0D00EB82EA /* PromiseKit */,
 				5D1B79C022ABAA2300EB82EA /* PMKFoundation */,
 				5DC87B2422ABBAD5005243D5 /* PMKHealthKit */,
 				5DD885B5237743E9003B1A55 /* PMKCoreLocation */,
@@ -281,7 +275,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "Librecz Gábor";
+				ORGANIZATIONNAME = "Ilia Detchenkov";
 				TargetAttributes = {
 					5D3E852821A0246C00FA946B = {
 						CreatedOnToolsVersion = 10.1;
@@ -314,7 +308,6 @@
 			);
 			mainGroup = 5D3E852021A0246C00FA946B;
 			packageReferences = (
-				5D1B79BA22ABA8EC00EB82EA /* XCRemoteSwiftPackageReference "PromiseKit" */,
 				5D1B79BF22ABAA2300EB82EA /* XCRemoteSwiftPackageReference "Foundation" */,
 				5DC87B2122ABBACD005243D5 /* XCRemoteSwiftPackageReference "PMKHealthKit" */,
 				5DD885B2237743DC003B1A55 /* XCRemoteSwiftPackageReference "CoreLocation" */,
@@ -478,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -533,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -551,7 +544,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = C89KNBM28S;
+				DEVELOPMENT_TEAM = 35WF4A4TAR;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/TermiWatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -559,14 +552,14 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuglee.TermiWatch.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.idetchenkov.TermiWatch.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
 			};
 			name = Debug;
 		};
@@ -578,7 +571,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = C89KNBM28S;
+				DEVELOPMENT_TEAM = 35WF4A4TAR;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/TermiWatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -586,14 +579,14 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuglee.TermiWatch.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.idetchenkov.TermiWatch.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
 			};
 			name = Release;
 		};
@@ -605,17 +598,17 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = C89KNBM28S;
+				DEVELOPMENT_TEAM = 35WF4A4TAR;
 				IBSC_MODULE = TerminalWatchFace_WatchKit_Extension;
 				INFOPLIST_FILE = "$(SRCROOT)/TermiWatch WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuglee.TermiWatch.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.idetchenkov.TermiWatch.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
 			};
 			name = Debug;
 		};
@@ -627,17 +620,17 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = C89KNBM28S;
+				DEVELOPMENT_TEAM = 35WF4A4TAR;
 				IBSC_MODULE = TerminalWatchFace_WatchKit_Extension;
 				INFOPLIST_FILE = "$(SRCROOT)/TermiWatch WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuglee.TermiWatch.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.idetchenkov.TermiWatch.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
 			};
 			name = Release;
 		};
@@ -649,14 +642,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = C89KNBM28S;
+				DEVELOPMENT_TEAM = 35WF4A4TAR;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/TermiWatch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuglee.TermiWatch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.idetchenkov.TermiWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -672,14 +665,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = C89KNBM28S;
+				DEVELOPMENT_TEAM = 35WF4A4TAR;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/TermiWatch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuglee.TermiWatch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.idetchenkov.TermiWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -729,14 +722,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5D1B79BA22ABA8EC00EB82EA /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mxcl/PromiseKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.8.4;
-			};
-		};
 		5D1B79BF22ABAA2300EB82EA /* XCRemoteSwiftPackageReference "Foundation" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/PromiseKit/Foundation";
@@ -772,16 +757,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5D1B79BB22ABA8EC00EB82EA /* PromiseKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5D1B79BA22ABA8EC00EB82EA /* XCRemoteSwiftPackageReference "PromiseKit" */;
-			productName = PromiseKit;
-		};
-		5D1B79BD22ABAA0D00EB82EA /* PromiseKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5D1B79BA22ABA8EC00EB82EA /* XCRemoteSwiftPackageReference "PromiseKit" */;
-			productName = PromiseKit;
-		};
 		5D1B79C022ABAA2300EB82EA /* PMKFoundation */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5D1B79BF22ABAA2300EB82EA /* XCRemoteSwiftPackageReference "Foundation" */;
